@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ButtonEvent from './ButtonEvent';
 import StateIn from './StateIn';
+import CounterApp from './CounterApp';
 
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Araf</h1>
-        <StateIn />
+        <CounterApp />
 
 
-        
+
       </header>
     </div>
   );
