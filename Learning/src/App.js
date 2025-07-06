@@ -9,6 +9,7 @@ import React,{useState} from 'react';
 import InputField from './InputField';
 import InputFieldWithButton from './InputFieldWithButton';
 import HideShowToggle from './HideShowToggle';
+import FormHandling from './FormHandling';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
@@ -20,7 +21,8 @@ function App() {
         <button onClick={() => setName("Muhammad")}>Change Name</button> */}
         {/* <InputField /> */}
         {/* <InputFieldWithButton/> */}
-        <HideShowToggle/>
+        {/* <HideShowToggle/> */}
+        <FormHandling/>
 
       </header>
     </div>
