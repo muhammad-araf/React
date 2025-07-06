@@ -10,6 +10,7 @@ import InputField from './InputField';
 import InputFieldWithButton from './InputFieldWithButton';
 import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
+import ConditionalRendering from './ConditionalRendering';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
@@ -22,7 +23,8 @@ function App() {
         {/* <InputField /> */}
         {/* <InputFieldWithButton/> */}
         {/* <HideShowToggle/> */}
-        <FormHandling/>
+        {/* <FormHandling/> */}
+        <ConditionalRendering/>
 
       </header>
     </div>
