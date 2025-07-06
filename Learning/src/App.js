@@ -7,6 +7,7 @@ import PropsIn from './PropsIn';
 import StateAndProps from './StateAndProps';
 import React,{useState} from 'react';
 import InputField from './InputField';
+import InputFieldWithButton from './InputFieldWithButton';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
@@ -16,7 +17,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <StateAndProps name={name}/>
         <button onClick={() => setName("Muhammad")}>Change Name</button> */}
-        <InputField />
+        {/* <InputField /> */}
+        <InputFieldWithButton/>
 
       </header>
     </div>
