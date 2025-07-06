@@ -10,8 +10,9 @@ function HideShowToggle(){
                 :
                 null
             }
-            <button onClick={()=>setCheck(false)}>Hide</button>
-            <button onClick={()=>setCheck(true)}>Show</button>
+            {/* <button onClick={()=>setCheck(false)}>Hide</button>
+            <button onClick={()=>setCheck(true)}>Show</button> */}
+            <button onClick={()=>setCheck(!check)}>Show And Hide</button>
         </div>
     )
 }
