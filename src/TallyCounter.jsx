@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ComponentDidUpdate extends Component {
+class TallyCounter extends Component {
     constructor(){
         super()
         this.state = {
@@ -35,4 +35,4 @@ class ComponentDidUpdate extends Component {
 }
 }
 
-export default ComponentDidUpdate;
+export default TallyCounter;

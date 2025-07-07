@@ -12,7 +12,7 @@ import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import PassFunctionAsProp from './PassFunctionAsProp';
-import ComponentDidUpdate from './Calculator';
+import TallyCounter from './TallyCounter';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
@@ -31,7 +31,7 @@ function App() {
         {/* <FormHandling/> */}
         {/* <ConditionalRendering/> */}
         {/* <PassFunctionAsProp data={getData}/> */}
-        <ComponentDidUpdate />
+        <TallyCounter/>
 
       </header>
     </div>
