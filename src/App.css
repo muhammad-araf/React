@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -33,12 +33,17 @@ button{
   font-size: 20px;
   background-color: #282c34;
   border: solid 2px #61dafb;
-  color: #61dafb;
+  color: #ffffff;
   cursor: pointer;
   margin: 10px;
 }
 h1{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #61dafb;
+}
+h2{
+  color: rgb(83, 255, 83);
+  font-size: 60px;
 }
 input{
   padding: 5px;
@@ -55,4 +60,14 @@ input{
   to {
     transform: rotate(360deg);
   }
+}
+
+#reset{
+  border: solid 2px red;
+}
+#count{
+  border: solid 2px rgb(100, 255, 100);
+}
+#last{
+  border: solid 2px rgb(255, 171, 44);
 }

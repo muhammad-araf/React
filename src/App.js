@@ -12,6 +12,7 @@ import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import PassFunctionAsProp from './PassFunctionAsProp';
+import ComponentDidUpdate from './ComponentDidUpdate';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
@@ -29,7 +30,8 @@ function App() {
         {/* <HideShowToggle/> */}
         {/* <FormHandling/> */}
         {/* <ConditionalRendering/> */}
-        <PassFunctionAsProp data={getData}/>
+        {/* <PassFunctionAsProp data={getData}/> */}
+        <ComponentDidUpdate />
 
       </header>
     </div>
