@@ -12,7 +12,7 @@ import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import PassFunctionAsProp from './PassFunctionAsProp';
-import ComponentDidUpdate from './ComponentDidUpdate';
+import ComponentDidUpdate from './Calculator';
 //  {useState} from 'react';
 function App() {
   const [name,setName] = useState("Araf");
