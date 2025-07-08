@@ -13,12 +13,13 @@ import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import PassFunctionAsProp from './PassFunctionAsProp';
 import TallyCounter from './TallyCounter';
+import Hooks from './Hooks';
 //  {useState} from 'react';
 function App() {
-  const [name,setName] = useState("Araf");
-  function getData(){
-    alert("Data Sent Successfully");
-  }
+  // const [name,setName] = useState("Araf");
+  // function getData(){
+  //   alert("Data Sent Successfully");
+  // }
   return (
     <div className="App">
       <header className="App-header">
@@ -31,7 +32,8 @@ function App() {
         {/* <FormHandling/> */}
         {/* <ConditionalRendering/> */}
         {/* <PassFunctionAsProp data={getData}/> */}
-        <TallyCounter/>
+        {/* <TallyCounter/> */}
+        <Hooks/>
 
       </header>
     </div>
