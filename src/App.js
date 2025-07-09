@@ -14,6 +14,7 @@ import ConditionalRendering from './ConditionalRendering';
 import PassFunctionAsProp from './PassFunctionAsProp';
 import TallyCounter from './TallyCounter';
 import Hooks from './Hooks';
+import UseCallBackHook from './UseCallBackHook';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");
@@ -33,7 +34,8 @@ function App() {
         {/* <ConditionalRendering/> */}
         {/* <PassFunctionAsProp data={getData}/> */}
         {/* <TallyCounter/> */}
-        <Hooks/>
+        {/* <Hooks/> */}
+        <UseCallBackHook/>
 
       </header>
     </div>
