@@ -15,10 +15,10 @@ import PassFunctionAsProp from './PassFunctionAsProp';
 import TallyCounter from './TallyCounter';
 import Hooks from './Hooks';
 import UseCallBackHook from './UseCallBackHook';
+import ContextGrandParent from './ContextGrandParent';
 //  {useState} from 'react';
 function App() {
-  // const [name,setName] = useState("Araf");
-  // function getData(){
+  // const [name,setName] = useState("Araf");/  // function getData(){
   //   alert("Data Sent Successfully");
   // }
   return (
@@ -35,7 +35,9 @@ function App() {
         {/* <PassFunctionAsProp data={getData}/> */}
         {/* <TallyCounter/> */}
         {/* <Hooks/> */}
-        <UseCallBackHook/>
+        {/* <UseCallBackHook/> */}
+        <ContextGrandParent/>
+
 
       </header>
     </div>
