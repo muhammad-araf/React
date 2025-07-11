@@ -17,6 +17,8 @@ import Hooks from './Hooks';
 import UseCallBackHook from './UseCallBackHook';
 import ContextGrandParent from './ContextGrandParent';
 import Ref from './Ref';
+import Mapping from './Mapping';
+import CallingAPI from './CallingAPI';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -38,7 +40,9 @@ function App() {
         {/* <Hooks/> */}
         {/* <UseCallBackHook/> */}
         {/* <ContextGrandParent/> */}
-        <Ref/>
+        {/* <Ref/> */}
+        {/* <Mapping/> */}
+        <CallingAPI/>
 
 
       </header>
