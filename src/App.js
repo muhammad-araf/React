@@ -16,6 +16,7 @@ import TallyCounter from './TallyCounter';
 import Hooks from './Hooks';
 import UseCallBackHook from './UseCallBackHook';
 import ContextGrandParent from './ContextGrandParent';
+import Ref from './Ref';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -36,7 +37,8 @@ function App() {
         {/* <TallyCounter/> */}
         {/* <Hooks/> */}
         {/* <UseCallBackHook/> */}
-        <ContextGrandParent/>
+        {/* <ContextGrandParent/> */}
+        <Ref/>
 
 
       </header>
