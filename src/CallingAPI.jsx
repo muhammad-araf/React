@@ -6,7 +6,7 @@ const CallingAPI = () => {
   const getApi = async () => {
     try {
       const response = await fetch('https://api.github.com/users/muhammad-araf');
-      const data = await response.json(); // ← () is required
+      const data = await response.json(); 
       setApi(data);
       console.log(api)
     } catch (error) {
@@ -15,7 +15,7 @@ const CallingAPI = () => {
   };
 
   useEffect(() => {
-    getApi(); // ✅ Only call here
+    getApi(); 
   }, []);
 
   return (
