@@ -19,6 +19,7 @@ import ContextGrandParent from './ContextGrandParent';
 import Ref from './Ref';
 import Mapping from './Mapping';
 import CallingAPI from './CallingAPI';
+import PrevProp from './PrevProp';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -42,7 +43,8 @@ function App() {
         {/* <ContextGrandParent/> */}
         {/* <Ref/> */}
         {/* <Mapping/> */}
-        <CallingAPI/>
+        {/* <CallingAPI/> */}
+        <PrevProp/>
 
 
       </header>
