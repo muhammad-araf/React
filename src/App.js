@@ -20,6 +20,8 @@ import Ref from './Ref';
 import Mapping from './Mapping';
 import CallingAPI from './CallingAPI';
 import PrevProp from './PrevProp';
+import StateWithObject from './StateWithObject';
+import LazyLoader from './LazyLoader';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -44,7 +46,9 @@ function App() {
         {/* <Ref/> */}
         {/* <Mapping/> */}
         {/* <CallingAPI/> */}
-        <PrevProp/>
+        {/* <PrevProp/> */}
+        {/* <StateWithObject/> */}
+        <LazyLoader/>
 
 
       </header>
