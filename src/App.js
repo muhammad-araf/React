@@ -23,6 +23,7 @@ import PrevProp from './PrevProp';
 import StateWithObject from './StateWithObject';
 import LazyLoader from './LazyLoader';
 import CallingAPIWithPromise from './CallingAPIWithPromise';
+import PostAPI from './PostAPI';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -50,7 +51,8 @@ function App() {
         {/* <PrevProp/> */}
         {/* <StateWithObject/> */}
         {/* <LazyLoader/> */}
-        <CallingAPIWithPromise/>
+        {/* <CallingAPIWithPromise/> */}
+        <PostAPI/>
 
 
       </header>
