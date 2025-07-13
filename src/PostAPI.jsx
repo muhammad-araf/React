@@ -14,6 +14,8 @@ const PostAPI = () => {
             'Content-Type': 'application/JSON'
         },
         body: JSON.stingify(OBJ)
+    }).then((res)=>{
+        console.log(res);
     })
   return (
     <>
