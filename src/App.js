@@ -18,12 +18,13 @@ import UseCallBackHook from './UseCallBackHook';
 import ContextGrandParent from './ContextGrandParent';
 import Ref from './Ref';
 import Mapping from './Mapping';
-import CallingAPI from './CallingAPI';
+// import CallingAPI from './CallingAPI';
 import PrevProp from './PrevProp';
 import StateWithObject from './StateWithObject';
 import LazyLoader from './LazyLoader';
-import CallingAPIWithPromise from './CallingAPIWithPromise';
-import PostAPI from './PostAPI';
+// import CallingAPIWithPromise from './CallingAPIWithPromise';
+// import PostAPI from './PostAPI';
+import DeleteAPI from './API/DeleteAPI';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -52,7 +53,8 @@ function App() {
         {/* <StateWithObject/> */}
         {/* <LazyLoader/> */}
         {/* <CallingAPIWithPromise/> */}
-        <PostAPI/>
+        {/* <PostAPI/> */}
+        <DeleteAPI/>
 
 
       </header>
