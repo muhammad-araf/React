@@ -26,6 +26,7 @@ import LazyLoader from './LazyLoader';
 // import PostAPI from './PostAPI';
 import DeleteAPI from './API/DeleteAPI';
 import PreFilledAPI from './API/PreFilledAPI';
+import PutAPI from './API/PutAPI';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -56,7 +57,8 @@ function App() {
         {/* <CallingAPIWithPromise/> */}
         {/* <PostAPI/> */}
         {/* <DeleteAPI/> */}
-        <PreFilledAPI/>
+        {/* <PreFilledAPI/> */}
+        <PutAPI/>
 
 
       </header>

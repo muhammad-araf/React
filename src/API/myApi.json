@@ -1,44 +1,43 @@
 {
   "MyApi": [
-  {
-    "id": "1",
-    "name": "Araf",
-    "username": "lentoaraf",
-    "age": 17,
-    "email": "arafmuhammad2008@gmail.com",
-    "contact": "https://www.linkedin.com/in/muhammad-araf/"
-  },
-  {
-    "id": "2",
-    "name": "Maham",
-    "username": "maham-sultana",
-    "age": 20,
-    "email": "mahamSultana@gmail.com",
-    "contact": "https://www.linkedin.com/in/maham-sultana/"
-  },
-  {
-    "id": "3",
-    "name": "fasih",
-    "username": "fallen",
-    "age": 23,
-    "email": "fasih@gmail.com",
-    "contact": "https://www.linkedin.com/in/fasih/"
-  },
-  {
-    "id": "4",
-    "name": "Pet",
-    "username": "petfat",
-    "age": 27,
-    "email": "pet@gmail.com",
-    "contact": "https://www.linkedin.com/in/pet/"
-  },
-  {
-    "id": "5",
-    "name": "Twiller",
-    "username": "twillcat",
-    "age": 25,
-    "email": "twiller@gmail.com",
-    "contact": "https://www.linkedin.com/in/twiller/"
-  }
-]
+    {
+      "id": "1",
+      "name": "yariq",
+      "age": "13",
+      "email": "muhammadyariq1221@gmail.com",
+      "contact": "chal nikal"
+    },
+    {
+      "id": "2",
+      "name": "Maham",
+      "username": "maham-sultana",
+      "age": 20,
+      "email": "mahamSultana@gmail.com",
+      "contact": "https://www.linkedin.com/in/maham-sultana/"
+    },
+    {
+      "id": "3",
+      "name": "fasih",
+      "username": "fallen",
+      "age": 23,
+      "email": "fasih@gmail.com",
+      "contact": "https://www.linkedin.com/in/fasih/"
+    },
+    {
+      "id": "4",
+      "name": "Pet",
+      "username": "petfat",
+      "age": 27,
+      "email": "pet@gmail.com",
+      "contact": "https://www.linkedin.com/in/pet/"
+    },
+    {
+      "id": "5",
+      "name": "Twiller",
+      "username": "twillcat",
+      "age": 25,
+      "email": "twiller@gmail.com",
+      "contact": "https://www.linkedin.com/in/twiller/"
+    }
+  ]
 }
