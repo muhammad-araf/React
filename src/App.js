@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './MyRouters/home';
 import ButtonEvent from './ButtonEvent';
 import StateIn from './StateIn';
 import CounterApp from './CounterApp';
@@ -31,6 +32,8 @@ import GetApiRequest from './Axios/GetApiRequest';
 import PostApiRequest from './Axios/PostApiRequest';
 import PutApiRequest from './Axios/PutApiRequest';
 //  {useState} from 'react';
+import { BrowserRouter,Routes,Route, Link, } from 'react-router-dom'
+
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
   //   alert("Data Sent Successfully");
@@ -64,7 +67,14 @@ function App() {
         {/* <PutAPI/> */}
         {/* <GetApiRequest/> */}
         {/* <PostApiRequest/> */}
-        <PutApiRequest/>
+        {/* <PutApiRequest/> */}
+        <BrowserRouter>
+        <Link to="/Home">Home</Link>
+        <Link to="/">Main</Link>
+        <Routes>
+            <Route path="/home" element={<Home/>}/>
+        </Routes>
+        </BrowserRouter>
 
       </header>
     </div>
