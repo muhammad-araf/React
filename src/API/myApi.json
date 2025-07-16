@@ -1,11 +1,11 @@
 {
   "MyApi": [
     {
-      "id": "1",
-      "name": "ARAF",
-      "age": "17",
-      "email": "muhamamdAraf2008@gmail.com",
-      "contact": "https://www.linkedin.com/in/muhammad-araf"
+      "name": "Araf",
+      "age": "18",
+      "email": "arafmuhammad2008@gmail.com",
+      "contact": "insta",
+      "id": "1"
     },
     {
       "id": "2",

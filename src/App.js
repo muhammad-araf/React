@@ -29,6 +29,7 @@ import PreFilledAPI from './API/PreFilledAPI';
 import PutAPI from './API/PutAPI';
 import GetApiRequest from './Axios/GetApiRequest';
 import PostApiRequest from './Axios/PostApiRequest';
+import PutApiRequest from './Axios/PutApiRequest';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -62,7 +63,8 @@ function App() {
         {/* <PreFilledAPI/> */}
         {/* <PutAPI/> */}
         {/* <GetApiRequest/> */}
-        <PostApiRequest/>
+        {/* <PostApiRequest/> */}
+        <PutApiRequest/>
 
       </header>
     </div>
