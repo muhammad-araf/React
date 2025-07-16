@@ -28,6 +28,7 @@ import DeleteAPI from './API/DeleteAPI';
 import PreFilledAPI from './API/PreFilledAPI';
 import PutAPI from './API/PutAPI';
 import GetApiRequest from './Axios/GetApiRequest';
+import PostApiRequest from './Axios/PostApiRequest';
 //  {useState} from 'react';
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -60,7 +61,8 @@ function App() {
         {/* <DeleteAPI/> */}
         {/* <PreFilledAPI/> */}
         {/* <PutAPI/> */}
-        <GetApiRequest/>
+        {/* <GetApiRequest/> */}
+        <PostApiRequest/>
 
       </header>
     </div>
