@@ -7,6 +7,7 @@ const Search = () => {
   return (
     <>
     <h1>{Myname}</h1>
+    <button onClick={()=>setSearchParam({name : "Araf"})}>Set Data</button>
     </>
   )
 }
