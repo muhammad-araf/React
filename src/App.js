@@ -36,6 +36,7 @@ import { BrowserRouter,Routes,Route, Link, } from 'react-router-dom'
 import Navbar from './MyRouters/Navbar';
 import About from './MyRouters/About';
 import Employe from './MyRouters/Employe';
+import Search from './MyRouters/Search';
 
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -76,6 +77,8 @@ function App() {
             <Route path="/home" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/employe/:name" element={<Employe/>}/>
+            <Route path="/search" element={<Search/>}/>
+            
         </Routes>
         </BrowserRouter>
 
