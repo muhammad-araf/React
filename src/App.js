@@ -37,6 +37,8 @@ import Navbar from './MyRouters/Navbar';
 import About from './MyRouters/About';
 import Employe from './MyRouters/Employe';
 import Search from './MyRouters/Search';
+import Login from './MyRouters/Login';
+import Protected from './MyRouters/Protected';
 
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -75,9 +77,10 @@ function App() {
         <Navbar/>
         <Routes>
             <Route path="/home" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
+            <Route path="/about" element={<Protected Component={About}/>}/>
             <Route path="/employe/:name" element={<Employe/>}/>
             <Route path="/search" element={<Search/>}/>
+            <Route path="/login" element={<Login/>}/>
             
         </Routes>
         </BrowserRouter>
