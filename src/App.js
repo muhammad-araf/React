@@ -33,6 +33,9 @@ import PostApiRequest from './Axios/PostApiRequest';
 import PutApiRequest from './Axios/PutApiRequest';
 //  {useState} from 'react';
 import { BrowserRouter,Routes,Route, Link, } from 'react-router-dom'
+import Navbar from './MyRouters/Navbar';
+import About from './MyRouters/About';
+import Employe from './MyRouters/Employe';
 
 function App() {
   // const [name,setName] = useState("Araf");/  // function getData(){
@@ -40,8 +43,7 @@ function App() {
   // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
         {/* <StateAndProps name={name}/>
         <button onClick={() => setName("Muhammad")}>Change Name</button> */}
         {/* <InputField /> */}
@@ -69,10 +71,11 @@ function App() {
         {/* <PostApiRequest/> */}
         {/* <PutApiRequest/> */}
         <BrowserRouter>
-        <Link to="/Home">Home</Link>
-        <Link to="/">Main</Link>
+        <Navbar/>
         <Routes>
             <Route path="/home" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/employe/:name" element={<Employe/>}/>
         </Routes>
         </BrowserRouter>
 
