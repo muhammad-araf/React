@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const CallingAPI = () => {
-  const [api, setApi] = useState({}); // object, not array (GitHub user = object)
+  const [api, setApi] = useState({});
 
   const getApi = async () => {
     try {
